@@ -13,3 +13,4 @@ func tick():
 		self.frame += 1
 	else:
 		self.frame = 0
+
