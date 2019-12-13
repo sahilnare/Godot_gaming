@@ -4,6 +4,7 @@ extends Sprite
 func _ready():
 	pass 
 
+
 func _process(delta):
 	if Input.is_key_pressed(KEY_LEFT):
 		self.position.x -= 2
@@ -31,3 +32,5 @@ func _input(event):
 			print("Key was held down")
 		else:
 			print("First press")
+			
+			
