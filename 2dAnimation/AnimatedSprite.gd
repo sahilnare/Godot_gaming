@@ -1,6 +1,5 @@
 extends AnimatedSprite
 
-
 func _ready():
 	connect("animation_finished",self,"when_anim_is_finish")
 	
@@ -11,3 +10,5 @@ func when_anim_is_finish():
 		self.animation = "attack"
 	else:
 		self.animation = "run"
+
+
